@@ -9,11 +9,11 @@ export class AppHeader {
     return (
       <header>
         <div class="header__left">  
-          <img src="./assets/icon/rick-and-morty-logo.jpg" alt="Rick and Morty Logo" class="header__logo" />
-          <h1>Rick & Morty StencilJS Pet Project</h1>
+          <img src="./assets/icon/rick-and-morty-logo.png" alt="Rick and Morty Logo" class="header__logo" />
+          <h1>Rick & Morty API StencilJS</h1>
         </div>
         <div class="header__right">
-          About me :)
+          <app-nav></app-nav>
         </div>
       </header>
     );

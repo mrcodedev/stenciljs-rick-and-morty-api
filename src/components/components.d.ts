@@ -14,8 +14,6 @@ export namespace Components {
     }
     interface AppPageHome {
     }
-    interface AppPageProject {
-    }
     interface AppPageRoot {
     }
 }
@@ -44,12 +42,6 @@ declare global {
         prototype: HTMLAppPageHomeElement;
         new (): HTMLAppPageHomeElement;
     };
-    interface HTMLAppPageProjectElement extends Components.AppPageProject, HTMLStencilElement {
-    }
-    var HTMLAppPageProjectElement: {
-        prototype: HTMLAppPageProjectElement;
-        new (): HTMLAppPageProjectElement;
-    };
     interface HTMLAppPageRootElement extends Components.AppPageRoot, HTMLStencilElement {
     }
     var HTMLAppPageRootElement: {
@@ -61,7 +53,6 @@ declare global {
         "app-nav": HTMLAppNavElement;
         "app-page-about-me": HTMLAppPageAboutMeElement;
         "app-page-home": HTMLAppPageHomeElement;
-        "app-page-project": HTMLAppPageProjectElement;
         "app-page-root": HTMLAppPageRootElement;
     }
 }
@@ -74,8 +65,6 @@ declare namespace LocalJSX {
     }
     interface AppPageHome {
     }
-    interface AppPageProject {
-    }
     interface AppPageRoot {
     }
     interface IntrinsicElements {
@@ -83,7 +72,6 @@ declare namespace LocalJSX {
         "app-nav": AppNav;
         "app-page-about-me": AppPageAboutMe;
         "app-page-home": AppPageHome;
-        "app-page-project": AppPageProject;
         "app-page-root": AppPageRoot;
     }
 }
@@ -95,7 +83,6 @@ declare module "@stencil/core" {
             "app-nav": LocalJSX.AppNav & JSXBase.HTMLAttributes<HTMLAppNavElement>;
             "app-page-about-me": LocalJSX.AppPageAboutMe & JSXBase.HTMLAttributes<HTMLAppPageAboutMeElement>;
             "app-page-home": LocalJSX.AppPageHome & JSXBase.HTMLAttributes<HTMLAppPageHomeElement>;
-            "app-page-project": LocalJSX.AppPageProject & JSXBase.HTMLAttributes<HTMLAppPageProjectElement>;
             "app-page-root": LocalJSX.AppPageRoot & JSXBase.HTMLAttributes<HTMLAppPageRootElement>;
         }
     }

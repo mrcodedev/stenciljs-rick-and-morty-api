@@ -1,2 +1,2 @@
-export { Components, JSX } from './components';
+export { Components, JSX } from './components/components';
 import '@stencil/router';
