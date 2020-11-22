@@ -22,6 +22,7 @@ export class AppNav {
     return (
       <ul>
         <li><stencil-route-link url="/" activeClass="active" exact={true}>Home</stencil-route-link></li>
+        <li><stencil-route-link url="/project" activeClass="active">Project</stencil-route-link></li>
         <li><stencil-route-link url="/about-me" activeClass="active">About Me</stencil-route-link></li>
       </ul>
     )

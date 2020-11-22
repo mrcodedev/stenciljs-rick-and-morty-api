@@ -8,7 +8,7 @@ export class AppPageAboutMe {
   
   render() {
     return (
-      <p>My name is Stencil</p>
+      <p>My name is About-me</p>
     );
   }
 }

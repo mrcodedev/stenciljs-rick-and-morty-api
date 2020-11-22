@@ -9,7 +9,7 @@ export class AppPageProject {
   
   render() {
     return (
-      <p>My name is Stencil</p>
+      <p>My name is Project</p>
     );
   }
 }
